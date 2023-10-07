@@ -1,80 +1,89 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "General sans";
+  font-family: 'General sans';
   box-sizing: border-box;
 }
 
-html,body {
-  width:100%;
-  height:100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
-#main{
+#main {
   width: 100%;
 }
 
-#home{
+#home {
   color: white;
   width: 100%;
   height: 100vh;
   background-color: black;
 }
-#nav{
+#nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 20px 40px;
+  padding: 30px 50px;
   color: white;
 }
 
-#nav a{
+#nav a {
   text-decoration: none;
   font-size: 18px;
   color: white;
+  font-weight: 550;
 }
 
-#heading{
-  margin-top: 90px;
+#nav h4 {
+  font-weight: 500;
 }
 
-#heading h1{
-  margin-left: 30px;
-  opacity: .6;
-  line-height: 1;
-  font-size: 9vw;
+#heading {
+  margin-top: 8vw;
+}
+
+#heading h1 {
+  margin-left: 2.5vw;
+  opacity: 0.66;
+  line-height: 0.84;
+  font-size: 10.5vw;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 500;
 }
 
-#heading #secondh1{
-  margin-left: 11vw;
+#heading #secondh1 {
+  margin-left: 13.6vw;
 }
 
-.blocktext{
-  width: fit-content
+.blocktext {
+  width: fit-content;
 }
 
-.blocktext h5{
+.blocktext h5 {
   text-transform: uppercase;
   text-align: right;
-  font-size: .9vw;
+  font-size: 0.85vw;
+  line-height: 4vw;
+  font-weight: 500;
 }
 
-#sheading{
+#sheading {
   margin-top: 100px;
   padding-right: 30px;
 }
 
-#sheading h5{
+#sheading h5 {
   text-transform: uppercase;
-  margin-top: .5vw;
-  font-size: 1vw;
+  margin-top: 0.5vw;
+  font-size: 16.5px;
   text-align: right;
+  font-weight: 500;
 }
 
-#hfooter{
+#hfooter {
   padding: 0 2vw;
   width: 100%;
   position: absolute;
@@ -82,21 +91,17 @@ html,body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-#hfooter a{
-  color: white;
-  text-decoration: none;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
-#hfooter #iconset{
+#hfooter #iconset {
   color: black;
   display: flex;
   gap: 5px;
 }
 
-#hfooter .circle{
+#hfooter .circle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,4 +109,52 @@ html,body {
   height: 25px;
   border-radius: 50%;
   background-color: #888888;
+}
+
+@media screen and (max-width: 600px) {
+  #nav {
+    padding: 25px 20px;
+  }
+  #nav a {
+    font-size: 16px;
+  }
+  #heading {
+    margin-top: 30vw;
+  }
+  #heading h1 {
+    margin-left: 5.3vw;
+    font-size: 18.2vw;
+    line-height: 0.9;
+  }
+  #heading #secondh1 {
+    margin-left: 5vw;
+  }
+  .blocktext h5 {
+    font-size: 13px;
+    line-height: 7.8vw;
+  }
+  #sheading {
+    margin-top: 80px;
+    padding-right: 20px;
+  }
+  #sheading h5 {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  #hfooter {
+    padding: 10px 20px;
+  }
+  #hfooter a1 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  #hfooter a2 {
+    font-weight: 500;
+    font-size: 13px;
+    text-align: right;
+  }
+  #hfooter #iconset {
+    display: none;
+  }
 }
