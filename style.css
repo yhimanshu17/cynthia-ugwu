@@ -147,3 +147,86 @@ body {
   z-index: 999;
   position: absolute;
 }
+
+#about {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  padding: 10vw 5vw;
+  padding-left: 40vw;
+  background-color: black;
+  width: 100%;
+}
+
+#textabout {
+  width: 25rem;
+}
+
+#textabout h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+#textabout p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+#textabout a {
+  padding: 12px 22px;
+  border: 1px solid white;
+  border-radius: 100px;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#about img {
+  width: 200px;
+}
+
+#subscribe {
+  color: white;
+  padding: 20px 30px;
+  padding-bottom: 7vw;
+  background-color: black;
+}
+
+#subscribe h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+#subscribe h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#footer {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 30px;
+}
+
+#footerleft {
+  display: flex;
+  gap: 20px;
+}
+
+#footerright {
+  display: flex;
+  gap: 30px;
+}
+
+#footer a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
