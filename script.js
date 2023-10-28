@@ -88,7 +88,7 @@ document.querySelectorAll('.elem').forEach(function (elem) {
       ease: Power3,
       top: diff,
       left: delts.clientX,
-      rotate: gsap.utils.clamp(-20, 20, diffrot * 5),
+      rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
     })
   })
 })
