@@ -1,14 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Cynthia Ugwu</title>
+    <title>document</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="loco.css" />
   </head>
 
   <body>
+    <div id="minicircle"></div>
     <div id="main">
       <div id="home">
         <div id="nav">
@@ -16,14 +18,24 @@
           <h4>MENU+</h4>
         </div>
         <div id="heading">
-          <h1>Product</h1>
+          <div class="bounding">
+            <h1 class="boundingelem">Product</h1>
+          </div>
           <div class="blocktext">
-            <h1 id="secondh1">Designer</h1>
-            <h5>based in toronto</h5>
+            <div class="bounding">
+              <h1 class="boundingelem" id="secondh1">Designer</h1>
+            </div>
+            <div class="bounding">
+              <h5 class="boundingelem">based in toronto</h5>
+            </div>
           </div>
           <div id="sheading">
-            <h5>available for freelancer</h5>
-            <h5>work from may 23'</h5>
+            <div class="bounding">
+              <h5 class="boundingelem">available for freelancer</h5>
+            </div>
+            <div class="bounding">
+              <h5 class="boundingelem">work from may 23'</h5>
+            </div>
           </div>
           <div id="hfooter">
             <a1 href="#">currently working at yml<i class="ri-arrow-right-up-line"></i></a1>
@@ -80,5 +92,13 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
