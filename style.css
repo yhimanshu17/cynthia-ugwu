@@ -173,7 +173,7 @@ body {
   height: 140%;
   z-index: 999;
   position: absolute;
-  transform: translateY(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #about {
