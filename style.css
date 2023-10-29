@@ -258,3 +258,54 @@ body {
   color: white;
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  #nav {
+    padding: 25px 20px;
+  }
+  #nav a {
+    font-size: 16px;
+  }
+  #heading {
+    margin-top: 30vw;
+  }
+  #heading h1 {
+    margin-left: 5.3vw;
+    font-size: 18.2vw;
+    line-height: 0.9;
+  }
+  #heading #secondh1 {
+    margin-left: 5vw;
+  }
+  .blocktext h5 {
+    font-size: 13px;
+    line-height: 7.8vw;
+  }
+  #sheading {
+    margin-top: 80px;
+    padding-right: 20px;
+  }
+  #sheading h5 {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+  #hfooter {
+    padding: 10px 20px;
+  }
+  #hfooter a1 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  #hfooter a2 {
+    font-weight: 500;
+    font-size: 13px;
+    text-align: right;
+  }
+  #hfooter #iconset {
+    display: none;
+  }
+  #minicircle {
+    display: none;
+  }
+}
